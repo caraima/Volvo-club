@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de inregistrare </title> 
+     
+    <link rel="icon" href="/img/icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+     
+       <body>
+        <div >
+
+        <video  muted autoplay id="background_pag_secund">
+          <source src="/video/1.Volvo_XC90.mp4">
+       </video>
+       
+      </div>
+         <!-- Linia orizonatala neintrerupta -->
+         <header class="card_secundar">
+        
+      
+        <img class=" Logo_absolut "height="115" src=" https://i.pinimg.com/originals/7f/ca/43/7fca4339b7ec9214e1226bfc234fc012.png" alt="Logo Volvo">
+            
+        <h1 id="titlu_paginei" class="text_centru"> Volvo club MD </h1>
+        </header>
+       
+        <div >
+           
+          <ul>
+            <a  id="pagina_principala" href="/index.html" target="">  Pagina Principala </a></li>
+          </ul>
+        
+        </div>
+        <main >
+          <div class="Forma ">
+          <h1 id="titlu_sectiune_pag">Date personale</h1>
+       
+           <!-- Trimitere catre pagina noua <form> </form>-->
+        
+
+         <form action="Contul meu.html" autocomplete="on">
+          
+          
+        <input class="imput" name="email" type="email" placeholder="Email" required >
+
+        <br><br>
+        <input class="imput"  name="nume" type="text" placeholder="Nume, prenume" required>
+        <br><br>
+        <input class="imput" name="parola" type="password" placeholder="Parola" minlength="5" maxlength="20" required>
+        <br><br>
+
+
+        <label for="birthday">Birthday</label>
+        <input class="imput" name="birthday" id="birthday" type="date" required>
+
+        <br><br>
+
+
+        <input class="imput" name="Categoria de gen" id="gen 1" type="radio" required>
+        <label for="gen 1"> Masculin </label>
+
+        <input class="imput" name="Categoria de gen" id="gen 2" type="radio" required>
+        <label for="gen 2"> Feminin </label>
+
+        <input class="imput" name="Categoria de gen" id="gen 3" type="radio" required>
+        <label for="gen 3"> Neutru </label>
+        
+        <br><br>
+
+        <select name="Selectarea Regiunii  " required > 
+          
+        <option value="Select Reg." selected> Regiunea </option>
+        <option value="Oras Chisinau"> Chisinau </option>
+        <option value="Oras Balti"> Or. Balti</option>
+
+      </select>
+
+      <br><br>
+        
+        <input class="imput" name="termeni de utilizare" id="termeni" type="checkbox" value="acceptare_termeni">
+        <label for="termeni"> Sunt de acord cu termenii de utilizare și politica de confidențialitate</label>
+ 
+        <br><br>
+        <div>
+        <input id="press" name="trimitere date" type="submit"> <input id="press" name="reset" type="reset">
+        </div>
+      </div>
+      </main>
+
+       </form>
+
+        
+
+        </body>  
+      
+      </html>
+   

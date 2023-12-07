@@ -1,0 +1,300 @@
+html{
+  margin:0px 100px 0 100px;
+}
+body{
+    background-color: rgb(255, 253, 253);
+}
+
+#paragraf_relativ {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+   z-index: 1;
+}
+.text_centru {
+    
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 10px 15 15 10px
+}
+#titlu_paginei {
+
+    color: rgb(17, 17, 116);
+    font-family: 'Open Sans';
+    font-size: 38px;
+    margin-top: 15px;
+    animation: introtext 1.5s 1  ease-in-out ;
+}
+#titlu_sectiune {
+    
+    color: rgb(66, 59, 59) ;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: 500;
+    list-style: none;
+   
+}
+.contact_text {
+    color:white;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    /* padding-top: 50px;
+    padding-left: 0; */
+}
+
+.card{
+    
+    background-color: rgb(245, 245, 245);
+    margin: 10px 0 0 10px;
+    z-index: 1;
+}
+.card_footer{
+    display: flex;
+    background-color:rgb(146, 146, 146);
+    width: 100%;
+    height: 270px;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+.Forma {
+    position: relative;
+    width: 300px;
+    height: 400 px;
+    /* margin-top: 20vh;
+    margin-left: 35vw; */
+    left: 50%;
+    transform: translateX(-50%);
+     padding : 10px 0 0 40px;
+     border-radius: 5px;
+     border: 1px solid rgb(139, 138, 138);
+     font-family: 'Open Sans' ;
+     font-size: 14px ;
+     font-weight: 500;
+     z-index: 1;
+    }
+
+.Logo_absolut{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+#select_limba{
+    position: absolute;
+    right: 140px;
+    top:20px
+}
+
+  #back_to_top{ 
+   background-color: whitesmoke;
+   color: rgb(24, 23, 23);
+   position: fixed;
+   right: 20px;
+   bottom: 70px;
+   cursor: pointer;
+border-radius: 50%;
+   
+}
+#pagina_principala{
+    position: relative;
+    top: 30px;
+    
+    color: rgb(17, 17, 116);
+}
+#background_pag_secund{
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+#titlu_sectiune_pag{
+    color: whitesmoke;
+    font-size: 32px;
+}
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px ;
+    color:rgb(17, 17, 116) ;
+    padding: 30px 0 30px 0;
+    justify-content: space-evenly;
+    
+  }
+  .tip_auto{
+    background-color:rgb(243, 243, 243);
+    width: 340px;
+    height: 250px;
+    padding: 20px 0 20px 30px;
+    border-radius: 15px;
+  }
+  .locatie{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    padding: 10px 0 0 10px;
+    
+    
+    
+  }
+  #titlu_sectiune_footer{
+    color:white ;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 0%;
+  }
+  #menu_laptop{
+    display: block;
+    display: flex;
+    background-color: rgb(146, 146, 146);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+  }
+  #menu_list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+   
+  }
+
+  .menu_item{
+    display: flex;
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67)
+  }
+ .menu_item:hover{
+    color:rgb(17, 17, 116) ;
+    text-decoration:underline;
+    font-size: 24px; 
+    /* transition-property:all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);  */
+}
+.menu_item:last-of-type{
+    color:rgb(8, 8, 8);
+
+}
+.imput{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.imput:focus{
+
+    background-color: rgb(109, 107, 107);
+
+}
+.press{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.press:active{
+    color:white;
+    background-color: black;
+    
+}
+
+  #menu_mobil{
+    display:flex;
+    display: none;
+  }
+  
+  #cerc{
+    display: flex;
+    
+    gap: 10px;
+    background-color: rgb(186, 196, 49) ;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    padding-left: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    /* position: relative; */
+    animation: miscare 2s 1  ease-in-out ;
+  }
+  
+  @keyframes introtext{
+    0% {
+        margin-top: -20%;
+    }
+    100%  {
+        margin-left: 5px;
+    }
+  }
+  @keyframes miscare{
+    0% {
+        margin-left: -30%;
+    }
+    100%  {
+        margin-left: 5px;
+    }
+  }
+  @media (max-width: 499px){
+    html{
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+    p{
+      display: none;
+    }
+    body{
+        background-color: grey;
+    }
+    .Logo_absolut{
+        display: none;
+    }
+    
+    #menu_laptop{
+        display: none;
+      }
+      #menu_mobil{
+        display: none;
+      }
+    .card_footer{
+      width: 100%;
+      height: 150px;
+    }
+    .locatie{
+        width: 120px;
+        height: 120px;
+    }
+    .card{
+        background-color:  rgb(201, 199, 199);
+    }
+    #paragraf_relativ{
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    #pagina_principala{
+        top: 30px;
+        left: 125px;
+    }
+    
+   #background_pag_secund {
+    display: none;
+     background-color: rgb(241, 234, 234);
+   }
+   .Forma{
+    background-color: whitesmoke;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 60px;
+   }
+  }
+    
