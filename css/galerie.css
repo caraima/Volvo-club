@@ -1,0 +1,73 @@
+html{
+    margin:0px 100px 0 100px;
+  }
+  body{
+    background-color: rgb(255, 253, 253);
+}.text_centru {
+
+    
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 10px 15 15 10px
+
+}
+#titlu_paginei {
+
+    color: rgb(17, 17, 116);
+    font-family: 'Open Sans';
+    font-size: 38px;
+    margin-top: 15px;
+    animation: introtext 1.5s 1  ease-in-out ;
+}
+#titlu_sectiune {
+    
+    color: rgb(66, 59, 59) ;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: 500;
+    list-style: none;
+   
+}
+.card{
+    width: 100;
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+    margin: 10px 0 0 10px;
+    z-index: 1;
+}
+.Logo_absolut{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+.container {
+
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px ;
+    color:rgb(17, 17, 116) ;
+    padding: 30px 0 30px 0;
+    justify-content: space-evenly;
+    display: none;
+  }
+  .foto{
+    background-color:rgb(255, 253, 253);
+    width: 340px;
+    height: 250px;
+    padding: 20px 0 20px 30px;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  .foto:hover{
+    transform:scale(1.5);
+  }
+  #load{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
