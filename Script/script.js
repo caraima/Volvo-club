@@ -1,11 +1,10 @@
 
-let container = document.querySelectorAll('container')
-console.log(container);
+let containere = document.querySelectorAll('.container');
+
 
 function incarcaFoto() {
+    for (const container_element  of containere) {
 
-for (const container of container){
-    container.style.display ='block'
+        container_element.style.display = 'block';
+    }
 }
-
-} 
